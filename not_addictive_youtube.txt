@@ -1,0 +1,9 @@
+! YT - home page
+www.youtube.com##:matches-path(/^\/$/) #page-manager
+www.youtube.com## #guide
+www.youtube.com## #guide-button
+www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+! YT - recommendations at the end of the video
+www.youtube.com##.ytp-fullscreen-grid
+! YT - recommendations on the sidebar
+www.youtube.com###secondary
