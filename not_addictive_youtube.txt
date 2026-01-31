@@ -1,10 +1,12 @@
 ! YT - home page
-www.youtube.com##:matches-path(/^\/$/) #page-manager
+www.youtube.com## :matches-path(/^\/$/) #page-manager
 www.youtube.com## #guide
 www.youtube.com## #guide-button
-www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+www.youtube.com## ytd-mini-guide-renderer.ytd-app.style-scope
 ! YT - recommendations at the end of the video
-www.youtube.com##.ytp-fullscreen-grid
-www.youtube.com##.videowall-endscreen
+www.youtube.com## .ytp-fullscreen-grid
+www.youtube.com## .videowall-endscreen
 ! YT - recommendations on the sidebar
-www.youtube.com###secondary
+www.youtube.com## #secondary
+! YT - pause overlay recommendations
+www.youtube.com## .ytp-pause-overlay-container
